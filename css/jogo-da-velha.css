@@ -1,0 +1,62 @@
+
+
+.quadros {
+	height: 150px;
+	width: 150px;
+	margin: 0px;
+
+	background-color: #C0C0C0;
+}
+
+.borda {
+	border-width: 20px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+.bord-esq {
+	border-left-color: transparent;
+}
+
+.bord-dir {
+	border-right-color: transparent;
+}
+
+.bord-cim {
+	border-top-color: transparent;
+}
+
+.bord-bai {
+	border-bottom-color: transparent;
+}
+
+.posicao-img {
+	position: relative;
+
+	left: 6%;
+	top: 6%;
+	
+}
+
+.quadros-win {
+	height: 150px;
+	width: 150px;
+	margin: 0px;
+
+	background-color: #C0C0C0;
+}
+
+.quadro-win-x {
+	background-color: #FF7F50;
+}
+
+.quadro-win-0 {
+	background-color: #1E90FF;
+}
+
+
+.quadros:hover {
+	background-color: #808080;
+}
+
+

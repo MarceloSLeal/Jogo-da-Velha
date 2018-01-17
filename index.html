@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Jogo da Velha</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jogo-da-velha.css">
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-xs-2">
+					<div class="quadros borda bord-esq bord-cim js-area0"></div>
+					<div class="quadros borda bord-esq js-area1"></div>
+					<div class="quadros borda bord-esq bord-bai js-area2"></div>
+				</div>
+
+				<div class="col-xs-2">
+					<div class="quadros borda bord-cim js-area3"></div>
+					<div class="quadros borda js-area4"></div>
+					<div class="quadros borda bord-bai js-area5"></div>
+				</div>
+
+				<div class="col-xs-2">
+					<div class="quadros borda bord-cim bord-dir js-area6"></div>
+					<div class="quadros borda bord-dir js-area7"></div>
+					<div class="quadros borda bord-dir bord-bai js-area8"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-2">
+					<div class="quadros borda posicao-img js-areaSeletor">
+						<div class="posicao-img js-areaSeletorImg">
+							<img src="img/x.png" class="js-areaSeletorImgChange">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		
+		<script src="js/jquery-3.2.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jogo-da-velha.js"></script>
+	</body>
+
+</html>
